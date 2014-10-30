@@ -1,8 +1,6 @@
 package com.macpaw.devmate.tester.page;
 
 import org.jbehave.web.selenium.WebDriverProvider;
-import org.junit.Assert;
-
 import static org.hamcrest.Matchers.equalTo;
 import static org.junit.Assert.assertThat;
 
