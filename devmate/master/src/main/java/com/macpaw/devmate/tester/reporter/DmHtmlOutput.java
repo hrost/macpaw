@@ -1,4 +1,4 @@
-package com.macpaw.devmate.tester.story.reporter;
+package com.macpaw.devmate.tester.reporter;
 
 import org.jbehave.core.configuration.Keywords;
 import org.jbehave.core.reporters.HtmlOutput;
@@ -11,13 +11,13 @@ import java.util.UUID;
 
 import static java.util.UUID.randomUUID;
 
-public class CustomHtmlOutput extends HtmlOutput {
+public class DmHtmlOutput extends HtmlOutput {
 
   private final File outputDirectory;
   private final WebDriverProvider driverProvider;
 
-  public CustomHtmlOutput(PrintStream output, Keywords keywords, File outputDirectory,
-                          WebDriverProvider driverProvider) {
+  public DmHtmlOutput(PrintStream output, Keywords keywords, File outputDirectory,
+                      WebDriverProvider driverProvider) {
     super(output, keywords);
     this.outputDirectory = outputDirectory;
     this.driverProvider = driverProvider;
