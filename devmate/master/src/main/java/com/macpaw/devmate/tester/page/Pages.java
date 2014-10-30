@@ -10,7 +10,7 @@ public class Pages {
   private MainPage main;
   private SignUpPage signUp;
   private FeaturesPage features;
-  private FeaturesPageAppManagement featuresAppManagement;
+  private FeaturesAppManagementPage featuresAppManagement;
 
   public Pages(WebDriverProvider driverProvider) {
     this.driverProvider = driverProvider;
@@ -37,9 +37,9 @@ public class Pages {
         return features;
     }
 
-  public FeaturesPageAppManagement featuresAppManagement() {
+  public FeaturesAppManagementPage featuresAppManagement() {
         if (null == featuresAppManagement) {
-            featuresAppManagement = new FeaturesPageAppManagement(driverProvider);
+            featuresAppManagement = new FeaturesAppManagementPage(driverProvider);
         }
         return featuresAppManagement;
     }

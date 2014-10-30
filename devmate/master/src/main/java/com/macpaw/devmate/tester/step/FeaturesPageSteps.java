@@ -1,19 +1,14 @@
 package com.macpaw.devmate.tester.step;
 
 import com.macpaw.devmate.tester.page.Pages;
-
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
 
-
-/**
- * Created by mykhailo.lukianenko on 10/8/2014.
- */
-public class FeaturePageSteps {
+public class FeaturesPageSteps {
 
   private final Pages pages;
 
-  public FeaturePageSteps(Pages pages) {
+  public FeaturesPageSteps(Pages pages) {
     this.pages = pages;
   }
 
@@ -22,8 +17,8 @@ public class FeaturePageSteps {
     pages.features().checkSParkleScreenShotPresence();
   }
 
-  @When("go to features page app management")
-  public void goToAppManagementPape() {
+  @When("go to features app management page")
+  public void goToFeaturesAppManagementPape() {
       pages.features().openAppManagementPage();
   }
 }

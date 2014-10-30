@@ -4,10 +4,6 @@ import com.macpaw.devmate.tester.page.Pages;
 
 import org.jbehave.core.annotations.Then;
 
-
-/**
- * Created by mykhailo.lukianenko on 10/8/2014.
- */
 public class PagesSteps {
 
   private final Pages pages;

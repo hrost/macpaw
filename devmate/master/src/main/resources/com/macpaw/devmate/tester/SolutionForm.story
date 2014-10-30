@@ -1,5 +1,3 @@
-Narrative: Sign Up Form story narrative
-
 Scenario: Solution appearance form (succesfull)
 
 Given open main page

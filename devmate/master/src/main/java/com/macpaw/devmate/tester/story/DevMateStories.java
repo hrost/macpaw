@@ -67,12 +67,12 @@ public class DevMateStories extends JUnitStories {
 
     MainPageSteps mainPageSteps = new MainPageSteps(pages);
     SignUpPageSteps signUpPageSteps = new SignUpPageSteps(pages);
-    FeaturePageSteps featurePageSteps = new FeaturePageSteps(pages);
-    FeaturePageAppManagementSteps featurePageAppManagementSteps = new FeaturePageAppManagementSteps(pages);
+    FeaturesPageSteps featuresPageSteps = new FeaturesPageSteps(pages);
+    FeaturesAppManagementPageSteps featuresAppManagementPageSteps = new FeaturesAppManagementPageSteps(pages);
 
     return new InstanceStepsFactory(configuration,
-                                    pagesSteps, mainPageSteps, signUpPageSteps, featurePageSteps,
-                                    featurePageAppManagementSteps,
+                                    pagesSteps, mainPageSteps, signUpPageSteps, featuresPageSteps,
+            featuresAppManagementPageSteps,
                                     screenShotOnFailureSteps,
                                     lifecycleSteps);
   }

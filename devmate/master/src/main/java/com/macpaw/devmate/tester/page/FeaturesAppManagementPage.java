@@ -7,12 +7,9 @@ import org.seleniumhq.selenium.fluent.FluentWebDriver;
 
 import static com.macpaw.devmate.tester.util.Constants.TIMEOUT;
 
-/**
- * Created by hrostik on 30.10.2014.
- */
-public class FeaturesPageAppManagement extends FluentWebDriverPage{
+public class FeaturesAppManagementPage extends FluentWebDriverPage{
 
-    public FeaturesPageAppManagement(WebDriverProvider driverProvider) { super(driverProvider); }
+    public FeaturesAppManagementPage(WebDriverProvider driverProvider) { super(driverProvider); }
 
     public void checkEasyUpdatesScreenShotPresence() {
         within(TIMEOUT).img(By.cssSelector(".visual-slider-img.on img[alt='Easy Updates']"));

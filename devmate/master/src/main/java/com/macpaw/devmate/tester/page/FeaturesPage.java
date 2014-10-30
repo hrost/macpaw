@@ -6,9 +6,6 @@ import org.openqa.selenium.By;
 
 import static com.macpaw.devmate.tester.util.Constants.TIMEOUT;
 
-/**
- * Created by mykhailo.lukianenko on 10/8/2014.
- */
 public class FeaturesPage extends FluentWebDriverPage {
 
   public FeaturesPage(WebDriverProvider driverProvider) {
