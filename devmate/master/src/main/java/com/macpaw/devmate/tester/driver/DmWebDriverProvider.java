@@ -3,7 +3,7 @@ package com.macpaw.devmate.tester.driver;
 import org.jbehave.web.selenium.TypeWebDriverProvider;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-/**
+/*
 * Created by hrostik on 30.10.2014.
 */
 public class DmWebDriverProvider extends TypeWebDriverProvider {
